@@ -8,7 +8,7 @@ function Footer() {
     <footer className="footer-sec">
       <div className="main">
         <div className="footer__row">
-          <div className="logo">
+          <div className="footer_logo">
             <img src={Logo} alt="Nexcent Logo" className="" />
             <span>Nexcent</span>
           </div>

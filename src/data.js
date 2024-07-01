@@ -11,6 +11,8 @@ import Pana from "./assets/pana.png";
 import Rafiki from "./assets/rafiki.png";
 import image9 from "./assets/image 9.png";
 import image18 from "./assets/image 18.png";
+import LaptopHand from "./assets/Laptop Hand.png";
+import Laptop from "./assets/Laptop.png";
 
 export const icon = {
   Apple,
@@ -26,4 +28,6 @@ export const icon = {
   Rafiki,
   image9,
   image18,
+  LaptopHand,
+  Laptop,
 };

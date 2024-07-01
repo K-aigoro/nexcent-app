@@ -1,6 +1,13 @@
 footer {
+  color: white;
   padding: 50px 20px;
   background: #263238;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 /* @media (max-width: 960px) {
@@ -84,9 +91,10 @@ footer {
 }
 
 input[type="email"] {
-  border: none;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #fff;
-  background-color: transparent;
-  font-size: 0.8rem;
+  -webkit-appearance: none;
+  border-radius: 1px;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  height: auto;
+  padding: 0.5em;
 }

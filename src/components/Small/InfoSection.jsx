@@ -20,7 +20,11 @@ function InfoSection() {
           </a>
         </div>
         <div className="post">
-          <img src="path/to/image2.jpg" alt="Post 2" />
+          <img
+            src={icon.LaptopHand}
+            alt="Post 2"
+            style={{ width: "100%", height: "186px" }}
+          />
           <h3>
             What are your safeguarding responsibilities and how can you manage
             them?
@@ -30,7 +34,7 @@ function InfoSection() {
           </a>
         </div>
         <div className="post">
-          <img src="path/to/image3.jpg" alt="Post 3" />
+          <img src={icon.Laptop} alt="Post 3" />
           <h3>Revamping the Membership Model with Triathlon Australia</h3>
           <a href="#" className="link">
             Readmore &rarr;

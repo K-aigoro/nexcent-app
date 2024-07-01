@@ -344,7 +344,7 @@
   margin: 0 auto;
 
   width: 1002.34px;
-  height: 255.8px;
+  height: 350.8px;
 }
 .post {
   background: #fff;
@@ -354,6 +354,7 @@
   text-align: center;
   transition: transform 0.2s;
   margin-top: 60px;
+  height: 330px;
 }
 
 .post h3 {
