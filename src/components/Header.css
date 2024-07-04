@@ -1,0 +1,87 @@
+.header1 {
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #fff;
+  max-width: 100%;
+  /* position: fixed; */
+}
+
+.container {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* logo div  */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo span {
+  font-size: 20px;
+  color: #333;
+}
+
+.logo-image {
+  width: 40px;
+  height: auto;
+}
+
+/* Nav Div  */
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  /* margin-right: 100px; */
+}
+
+.nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+}
+
+/* toggle button  */
+.toggle {
+  display: none;
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+
+    /* background-color: #ffft; */
+    /* position: absolute; */
+    /* top: 60px;
+    left: 0; */
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .container {
+    flex-direction: row;
+    align-content: stretch;
+    align-items: baseline;
+  }
+}

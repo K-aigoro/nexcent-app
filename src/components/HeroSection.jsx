@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import Path from "../assets/Illustration.png";
+import "./Style/Style.css";
+import Path from "../assets/Illustration (1).png";
 import Button from "./reuseable/Button";
 
 function HeroSection() {

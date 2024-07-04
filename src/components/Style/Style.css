@@ -1,0 +1,161 @@
+/* Hero section  */
+
+.hero__section {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 80px;
+  background-color: #f9f9f9;
+}
+
+.hero__content {
+  max-width: 600px;
+}
+.hero__content h1 {
+  font-size: 30px;
+}
+.hero__content span {
+  color: #2a9d8f;
+}
+
+.hero__content p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Feature Section  */
+
+.features__section {
+  padding: 50px 80px;
+  text-align: center;
+  color: black;
+}
+
+.features__section h2 {
+  font-size: 35px;
+  margin-bottom: 18px;
+  color: #4d4d4d;
+}
+
+.features__section p {
+  margin-bottom: 30px;
+  color: #717171;
+}
+.features-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16.7057px 22.2742px;
+  gap: 5.57px;
+  margin: 0 auto;
+  width: 208.12px;
+  background: #ffffff;
+  box-shadow: 0px 1.39214px 2.78428px rgba(171, 190, 209, 0.2);
+  border-radius: 5.56856px;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.feature h3 {
+  font-size: 22px;
+  color: #2a9d8f;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+}
+
+.footer__down {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .hero__section {
+    padding: 50px 40px;
+  }
+  .hero__content h1 {
+    font-size: 40px;
+  }
+
+  .hero-image img {
+    display: none;
+  }
+
+  .feature {
+    gap: 8px;
+    min-width: 300px;
+  }
+  .features__section {
+    padding: 30px 40px;
+  }
+  .features__section h2 {
+    font-size: 23px;
+  }
+
+  .main {
+    margin: 0 auto;
+    width: 100%;
+    /* flex-direction: column; */
+  }
+
+  .clients-logos {
+    display: block;
+  }
+
+  .blog__text {
+    margin-top: 18px;
+  }
+
+  .statistics {
+    flex-direction: column;
+  }
+
+  .statistics h2 {
+    font-size: 30px;
+  }
+
+  .statistics p {
+    font-size: 16px;
+  }
+
+  .testimonial {
+    text-align: center;
+  }
+
+  .testimonial__content {
+    flex-direction: column;
+  }
+  .p1 {
+    text-align: justify;
+  }
+  .info__posts {
+    width: 600px;
+    height: 1400px;
+    flex-direction: column;
+  }
+  .post {
+    height: auto;
+  }
+  .banner {
+    padding: 0;
+  }
+  .footer__down {
+    flex-direction: column;
+    gap: 0px;
+  }
+}

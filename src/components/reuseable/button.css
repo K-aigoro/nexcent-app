@@ -1,0 +1,14 @@
+.register-button {
+  padding: 9px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: transparent;
+  outline: none;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.register-button:hover {
+  background-color: #45a049;
+}

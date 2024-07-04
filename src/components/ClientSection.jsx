@@ -6,7 +6,7 @@ function ClientSection() {
   return (
     <section className="clients__section">
       <h2>Our Clients</h2>
-      <p>We keep them sporting with some Keybase 300+ clients</p>
+      <p>We have been working with some Fortune 500+ clients</p>
       <div className="clients-logos">
         {/* Add client logos here */}
         <img src={icon.Client} alt="Client 1" />

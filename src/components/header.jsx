@@ -1,34 +1,37 @@
-// import React from "react";
+// eslint-disable-next-line no-unused-vars
+import React, { useState } from "react";
 import Logo from "../assets/Icon.png";
 import Button from "./reuseable/Button";
+import "./Header.css";
 
 function Header() {
-  return (
-    <header className="header">
-      <div className="logo">
-        <img src={Logo} alt="Nexcent Logo" className="logo-image" />
-        <span>Nexcent</span>
-      </div>
+  const [isOpen, setIsOpen] = useState(false);
 
-      {/* navbar  */}
-      <nav className="nav">
-        <a href="#home" className="nav__link">
-          Home
-        </a>
-        <a href="#features" className="nav__link">
-          Features
-        </a>
-        <a href="#community" className="nav__link">
-          Community
-        </a>
-        <a href="#blog" className="nav__link">
-          Blog
-        </a>
-        <a href="#pricing" className="nav__link">
-          Pricing
-        </a>
-        <Button name="Register Now →" />
-      </nav>
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <header className="header1">
+      <div className="container">
+        <div className="logo">
+          <img src={Logo} alt="Nexcent Logo" className="logo-image" />
+          <span>Nexcent</span>
+        </div>
+
+        {/* navbar  */}
+        <nav className={`nav ${isOpen ? "open" : ""}`}>
+          <a href="#home">Home</a>
+          <a href="#features">Features</a>
+          <a href="#community">Community</a>
+          <a href="#blog">Blog</a>
+          <a href="#pricing">Pricing</a>
+          <Button name="Register Now →" />
+        </nav>
+        <button className="toggle" onClick={toggleMenu}>
+          ☰
+        </button>
+      </div>
     </header>
   );
 }
