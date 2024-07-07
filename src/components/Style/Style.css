@@ -1,27 +1,48 @@
 /* Hero section  */
 
-.hero__section {
+.hero {
+  padding: 66.8227px 100.234px;
+  background: #f5f7fa;
   color: black;
+}
+
+.hero__section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 80px;
-  background-color: #f9f9f9;
 }
 
 .hero__content {
   max-width: 600px;
 }
 .hero__content h1 {
-  font-size: 30px;
+  font-size: 48px;
+  line-height: 52.9px;
+  font-weight: 600;
+  color: #4d4d4d;
 }
 .hero__content span {
-  color: #2a9d8f;
+  color: #4caf4f;
 }
 
 .hero__content p {
-  font-size: 18px;
-  margin: 20px 0;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+.hero__button {
+  padding: 9px 25px;
+  color: #fff;
+  border: transparent;
+
+  height: 38.49px;
+  background: #4caf4f;
+  border-radius: 2.78428px;
+
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
 }
 
 .hero-image img {
@@ -32,33 +53,33 @@
 /* Feature Section  */
 
 .features__section {
-  padding: 50px 80px;
+  padding: 20px 100.234px;
   text-align: center;
   color: black;
 }
 
 .features__section h2 {
-  font-size: 35px;
-  margin-bottom: 18px;
+  /* font-size: 25px */
   color: #4d4d4d;
+  width: 377.27px;
+  height: 72px;
+  margin: 0 auto;
 }
 
 .features__section p {
-  margin-bottom: 30px;
   color: #717171;
 }
+
 .features-grid {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 20px;
+  gap: 18.1px;
+  margin-top: 5px;
 }
 
 .feature {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16.7057px 22.2742px;
   gap: 5.57px;
   margin: 0 auto;
   width: 208.12px;
@@ -71,12 +92,13 @@
 
 .feature h3 {
   font-size: 22px;
-  color: #2a9d8f;
-  margin-bottom: 10px;
+  text-align: center;
+  color: #4d4d4d;
 }
 
 .feature p {
-  font-size: 16px;
+  font-size: 14px;
+  color: #717171;
 }
 
 .footer__down {
@@ -85,11 +107,12 @@
 }
 
 @media (max-width: 768px) {
-  .hero__section {
-    padding: 50px 40px;
+  .hero {
+    padding: 12px 25px;
   }
+
   .hero__content h1 {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .hero-image img {
@@ -103,8 +126,9 @@
   .features__section {
     padding: 30px 40px;
   }
-  .features__section h2 {
-    font-size: 23px;
+  .features-grid {
+    flex-direction: column;
+    margin-top: 10px;
   }
 
   .main {
@@ -115,13 +139,29 @@
 
   .clients-logos {
     display: block;
+    padding: 3px;
+  }
+  .blog__section {
+    padding: 30px 20px;
+  }
+
+  .blog__image {
+    display: none;
   }
 
   .blog__text {
     margin-top: 18px;
   }
 
+  .blog__text h1 {
+    font-size: 25px;
+  }
+
   .statistics {
+    padding: 20px 10px;
+    flex-direction: column;
+  }
+  .stats {
     flex-direction: column;
   }
 

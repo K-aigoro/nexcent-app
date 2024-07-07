@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import Button from "./Button";
 
 function BlogSection({ name, title, img }) {
   return (
@@ -14,7 +13,7 @@ function BlogSection({ name, title, img }) {
         <div className="blog__text">
           <h1>{name}</h1>
           <p>{title}</p>
-          <Button name="Learn More" />
+          <button className="hero__button">Learn More</button>
         </div>
       </div>
     </div>

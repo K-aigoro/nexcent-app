@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import Logo from "../assets/Icon.png";
+// import Logo from "../assets/Icon.png";
 import "./reuseable/footer.css";
 
 function Footer() {
@@ -9,7 +9,7 @@ function Footer() {
       <div className="main">
         <div className="footer__row">
           <div className="footer_logo">
-            <img src={Logo} alt="Nexcent Logo" className="" />
+            {/* <img src={Logo} alt="Nexcent Logo" className="" /> */}
             <span>Nexcent</span>
           </div>
           <p>Copyright © 2020 Landify UI Kit.</p>

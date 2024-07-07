@@ -1,14 +1,25 @@
 .register-button {
-  padding: 9px 20px;
-  background-color: #4caf50;
+  padding: 16px 26px;
+  background-color: #4caf4f;
   color: #fff;
   border: transparent;
-  outline: none;
-  text-decoration: none;
   border-radius: 5px;
   font-size: 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5.57px;
 }
 
 .register-button:hover {
   background-color: #45a049;
+}
+
+.register-button p {
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 17px;
+  color: #ffffff;
 }

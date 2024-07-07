@@ -1,12 +1,19 @@
-import Client from "./assets/Logo.png";
-import Apple from "./assets/apple_icon.svg";
-import Facebook from "./assets/facebook.svg";
-import Linkdlen from "./assets/linkdlen.svg";
-import Whatsapp from "./assets/whatsapp.svg";
-import Goggle from "./assets/google.svg";
-import Partner from "./assets/partner.png";
-import Partner1 from "./assets/partner2.png";
-import Partner2 from "./assets/partner3.svg";
+import clientLogo1 from "./assets/client-Logo1.svg";
+import clientLogo2 from "./assets/client-Logo2.svg";
+import clientLogo3 from "./assets/client-Logo3.svg";
+import clientLogo4 from "./assets/client-Logo4.svg";
+import clientLogo5 from "./assets/client-Logo5.svg";
+import clientLogo6 from "./assets/client-Logo6.svg";
+
+import Membership from "./assets/MembershipIcon.svg";
+import National from "./assets/NationalIcon.svg";
+import Club from "./assets/ClubIcon.svg";
+
+import Vector1 from "./assets/Vector1.svg";
+import Vector2 from "./assets/Vector2.svg";
+import Vector3 from "./assets/Vector3.svg";
+import Vector4 from "./assets/Vector4.svg";
+
 import Pana from "./assets/pana.png";
 import Rafiki from "./assets/rafiki.png";
 import image9 from "./assets/image 9.png";
@@ -15,15 +22,22 @@ import LaptopHand from "./assets/Laptop Hand.png";
 import Laptop from "./assets/Laptop.png";
 
 export const icon = {
-  Apple,
-  Facebook,
-  Linkdlen,
-  Whatsapp,
-  Client,
-  Goggle,
-  Partner,
-  Partner1,
-  Partner2,
+  clientLogo1,
+  clientLogo2,
+  clientLogo3,
+  clientLogo4,
+  clientLogo5,
+  clientLogo6,
+
+  Membership,
+  National,
+  Club,
+
+  Vector1,
+  Vector2,
+  Vector3,
+  Vector4,
+
   Pana,
   Rafiki,
   image9,

@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-import Logo from "../assets/Icon.png";
+import Logo from "../assets/Header-logo.png";
 import Button from "./reuseable/Button";
 import "./Header.css";
 
@@ -16,7 +16,6 @@ function Header() {
       <div className="container">
         <div className="logo">
           <img src={Logo} alt="Nexcent Logo" className="logo-image" />
-          <span>Nexcent</span>
         </div>
 
         {/* navbar  */}
