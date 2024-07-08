@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-// import Logo from "../assets/Icon.png";
+import { icon } from "../data";
 import "./reuseable/footer.css";
 
 function Footer() {
@@ -9,11 +9,18 @@ function Footer() {
       <div className="main">
         <div className="footer__row">
           <div className="footer_logo">
-            {/* <img src={Logo} alt="Nexcent Logo" className="" /> */}
-            <span>Nexcent</span>
+            <img src={icon.FooterLogo} alt="" />
           </div>
-          <p>Copyright © 2020 Landify UI Kit.</p>
-          <p>All rights reserved</p>
+          <p>
+            Copyright © 2020 Landify UI Kit. <br />
+            All rights reserved
+          </p>
+          <div className="social__links">
+            <img src={icon.SocialIcon1} alt="" />
+            <img src={icon.SocialIcon2} alt="" />
+            <img src={icon.SocialIcon3} alt="" />
+            <img src={icon.SocialIcon4} alt="" />
+          </div>
         </div>
         <div className="footer__down">
           <div className="footer_list">
@@ -67,6 +74,7 @@ function Footer() {
             </div>
             <div className="input">
               <input type="email" placeholder="Your Email Address" />
+              <img src={icon.VectorArrow} alt="" />
             </div>
           </div>
         </div>

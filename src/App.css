@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -137,7 +138,7 @@ body {
 .testimonial {
   color: #000;
   background: #f5f7fa;
-  padding: 50px 20px;
+  padding: 22.2742px 100.234px;
 }
 
 .testimonial__content {
@@ -159,6 +160,22 @@ body {
 .testimonial__image {
   flex: 1;
 }
+.testimonial__icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 8px;
+}
+.testimonial__icon p {
+  font-weight: 600;
+  color: #4caf4f;
+  font-size: 14px;
+  line-height: 19px;
+}
+.testimonial__icon img {
+  width: 34px;
+  height: 35px;
+}
 
 .blog__text {
   flex: 1;
@@ -174,6 +191,8 @@ body {
 }
 
 .p1 {
+  font-size: 15px;
+  line-height: 19px;
   margin: 20px 0;
   color: #717171;
 }
@@ -184,32 +203,28 @@ body {
 .p3 {
   color: #89939e;
 }
+
 .info__section {
-  padding: 50px 20px;
-  background: #f9f9f9;
+  padding: 22.2742px 100.234px;
+
   color: black;
   text-align: center;
 }
+
 .info__section h2 {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 600;
-  font-size: 25.0585px;
-  line-height: 31px;
+  font-size: 32px;
   /* Neutral/D_Grey */
   color: #4d4d4d;
 }
 
 .info__section p {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 17px;
+  /* line-height: 17px; */
   /* or 150% */
   text-align: center;
-
-  width: 437.13px;
+  width: 600.13px;
   margin: 0 auto;
 
   /* Neutral/Grey */
@@ -263,40 +278,40 @@ body {
 }
 .banner {
   text-align: center;
-  padding: 44.5484px 100.234px;
-  gap: 22.27px;
-  color: black;
-
-  height: 250px;
-
-  /* Neutral/Silver */
+  padding: 20px 100.234px;
   background: #f5f7fa;
 }
+
 .banner h1 {
-  font-family: "Inter";
+  /* font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 44.5484px;
   line-height: 53px;
-  /* or 119% */
   text-align: center;
+  color: #263238;
+ 
+  height: 106px; */
 
-  /* Neutral/Black */
+  font-weight: 600;
+  font-size: 44.5484px;
   color: #263238;
   margin: 0 auto;
+  text-align: center;
   width: 617.41px;
-  height: 106px;
 }
+
 .demo-button {
+  text-align: center;
   margin-top: 18px;
   background-color: #28a745;
   color: white;
   border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
+  padding: 13px 20px;
+  font-size: 13px;
   border-radius: 5px;
   cursor: pointer;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
   transition: background-color 0.3s ease;
 }
 
@@ -314,8 +329,6 @@ body {
   display: flex;
   gap: 30px;
   align-items: baseline;
-  margin: 0 auto;
-  max-width: 1000px;
   justify-content: space-between;
 }
 .span {

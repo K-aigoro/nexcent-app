@@ -14,6 +14,15 @@ import Vector2 from "./assets/Vector2.svg";
 import Vector3 from "./assets/Vector3.svg";
 import Vector4 from "./assets/Vector4.svg";
 
+import FooterLogo from "./assets/footerLogo.svg";
+
+import SocialIcon1 from "./assets/Social Icons1.svg";
+import SocialIcon2 from "./assets/Social Icons2.svg";
+import SocialIcon3 from "./assets/Social Icons3.svg";
+import SocialIcon4 from "./assets/Social Icons4.svg";
+
+import VectorArrow from "./assets/VectorArrow.svg";
+
 import Pana from "./assets/pana.png";
 import Rafiki from "./assets/rafiki.png";
 import image9 from "./assets/image 9.png";
@@ -37,6 +46,14 @@ export const icon = {
   Vector2,
   Vector3,
   Vector4,
+
+  FooterLogo,
+  SocialIcon1,
+  SocialIcon2,
+  SocialIcon3,
+  SocialIcon4,
+
+  VectorArrow,
 
   Pana,
   Rafiki,

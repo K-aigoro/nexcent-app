@@ -175,27 +175,54 @@
 
   .testimonial {
     text-align: center;
+    padding: 20px 10px;
   }
 
   .testimonial__content {
     flex-direction: column;
   }
+
+  .testimonial__image {
+    display: none;
+  }
   .p1 {
+    font-size: 15px;
     text-align: justify;
   }
+
+  .info__section {
+    padding: 20px 10px;
+  }
+
+  .info__section p {
+    max-width: 400px;
+  }
+
   .info__posts {
+    display: none;
     width: 600px;
     height: 1400px;
     flex-direction: column;
   }
+
+  .banner h1 {
+    font-size: 31px;
+    max-width: 400px;
+  }
+
   .post {
     height: auto;
   }
   .banner {
     padding: 0;
   }
+
   .footer__down {
     flex-direction: column;
-    gap: 0px;
+    gap: 20px;
+  }
+
+  .footer-sec {
+    padding: 20px 50px;
   }
 }
