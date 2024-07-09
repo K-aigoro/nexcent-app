@@ -35,7 +35,7 @@ function TestimonialSection() {
             <img src={icon.clientLogo5} alt="Client 5" />
             <img src={icon.clientLogo6} alt="Client 5" />
             <img src={icon.clientLogo3} alt="Client 7" />
-            <p>Meet all customers </p>
+            <p>Meet all customers &rarr;</p>
           </div>
         </div>
       </div>

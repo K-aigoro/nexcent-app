@@ -110,9 +110,10 @@ body {
 }
 
 .stats {
-  display: flex;
-  justify-content: space-around;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-template-rows: repeat(2, auto); /* Two rows with auto height */
+  gap: 20px; /* Gap between grid items */
   /* margin-top: 20px; */
 }
 
@@ -240,7 +241,7 @@ body {
   margin: 0 auto;
 
   width: 1002.34px;
-  height: 350.8px;
+  /* height: 350.8px; */
 }
 .post {
   background: #fff;
@@ -249,7 +250,7 @@ body {
   overflow: hidden;
   text-align: center;
   transition: transform 0.2s;
-  margin-top: 60px;
+  margin-top: 30px;
   height: 330px;
 }
 
